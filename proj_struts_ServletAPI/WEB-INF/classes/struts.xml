@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+     <!-- 方法名调用action -->
+    <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+    <!-- 开发模式 -->
+    <constant name="struts.devMode" value="true" />
+       <!-- 配置编码格式-->
+     <constant name="struts.i18n.encoding" value="UTF-8" />
+        <!-- 配置扩展名-->
+     <constant name="struts.action.extension" value="action,do" />
+
+    <include file="struts-*.xml"/>
+
+   
+
+</struts>

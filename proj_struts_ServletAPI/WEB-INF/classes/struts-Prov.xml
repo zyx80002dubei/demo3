@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    
+  <package name="prov" namespace="/prov" extends="struts-default">
+     <action name="addProv" class="com.it.action.ProvAction" method="addProv">
+        <result name="success">/prov/showProv.jsp</result>
+        <result name="error">/prov/error.jsp</result>
+     </action>
+       <action name="addProv2" class="com.it.action.ProvAction" method="addProv2">
+        <result name="success">/prov/showProv2.jsp</result>
+        <result name="error">/prov/error.jsp</result>
+     </action>
+  </package>
+</struts>
