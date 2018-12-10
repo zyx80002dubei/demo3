@@ -25,10 +25,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 	<body>
 		<hr size="10" color="blue">
-      request:${requestScope.req}
-     request:<h2>${ req }</h2><br>
-     session:<h2>${ ses }</h2><br>
-     application:<h2>${ app }</h2><br>
+                            request:${requestScope.req}
+                          request:<h2>${ req }</h2><br>
+                         session:<h2>${ ses }</h2><br>
+                         application:<h2>${ app }</h2><br>
 
-	</body>
+	  </body>
 </html>
